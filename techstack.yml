@@ -1,0 +1,1564 @@
+repo_name: Wladoo/versionpress
+report_id: fada0acafd5532704c75adb50df05e3e
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-25T10:26:35+00:00'
+requested_by: borekb
+provider: github
+branch: master
+detected_tools_count: 113
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/Wladoo/versionpress
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/Wladoo/versionpress
+  detection_source: Repo Metadata
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/Wladoo/versionpress
+  detection_source: Repo Metadata
+- name: Smarty
+  description: Template engine for PHP
+  website_url: http://www.smarty.net/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/3693/smarty.png
+  detection_source_url: https://github.com/Wladoo/versionpress
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/Wladoo/versionpress
+  detection_source: Repo Metadata
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2018-06-19 09:59:00.000000000 Z
+- name: Less
+  description: The dynamic stylesheet language
+  website_url: http://lesscss.org/
+  version: 3.8.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1170/default_957cbc0168b4d37265e264469c888f776e57f42c.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Václav Ostrožlík
+  last_updated_on: 2015-05-19 10:11:01.000000000 Z
+- name: MobX
+  description: Simple, scalable state management
+  website_url: https://github.com/mobxjs/mobx
+  version: 4.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/5302/17475736.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Václav Ostrožlík
+  last_updated_on: 2015-05-19 10:11:01.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/scripts/package.json
+  detection_source: scripts/package.json
+  last_updated_by: Borek Bernard
+  last_updated_on: 2019-03-17 13:41:32.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Václav Ostrožlík
+  last_updated_on: 2015-05-19 10:11:01.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 16.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2018-09-17 08:52:49.000000000 Z
+- name: React Hot Loader
+  description: Tweak React components in real time
+  website_url: http://gaearon.github.io/react-hot-loader/
+  version: 4.3.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2018-09-17 08:52:49.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 4.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2018-09-17 08:52:49.000000000 Z
+- name: Symfony
+  description: A PHP full-stack web framework
+  website_url: http://symfony.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1197/logosf_positif_03_icon.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/plugins/versionpress/composer.json
+  detection_source: plugins/versionpress/composer.json
+  last_updated_by: Borek Bernard
+  last_updated_on: 2017-06-22 23:06:38.000000000 Z
+- name: css-loader
+  description: Helps webpack to collect CSS from all the css files
+  website_url: https://github.com/webpack-contrib/css-loader
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2018-09-17 08:52:49.000000000 Z
+- name: Cloud DB for Mysql
+  description: Easily setup and manage the MySQL database service
+  website_url: https://www.ncloud.com/product/database/cloudDbMysql
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: SQL Database as a Service
+  image_url: https://img.stackshare.io/service/21275/default_078eb0ae2b56280a937ed073a3ba4332291f9ba8.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Borek Bernard
+  last_updated_on: 2019-03-10 22:17:31.000000000 Z
+- name: GraphQL
+  description: A data query language and runtime
+  website_url: http://graphql.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Query Languages
+  image_url: https://img.stackshare.io/service/3820/12972006.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/scripts/package.json
+  detection_source: scripts/package.json
+  last_updated_by: Borek Bernard
+  last_updated_on: 2019-03-26 17:07:46.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Borek Bernard
+  last_updated_on: 2017-05-21 09:42:16.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2019-03-27 15:08:08.000000000 Z
+- name: Chai
+  description: A BDD / TDD assertion library
+  website_url: http://chaijs.com/
+  version: 4.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/1725/chai.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Václav Ostrožlík
+  last_updated_on: 2015-05-19 10:11:01.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/Wladoo/versionpress
+  detection_source: Repo Metadata
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/scripts/package.json
+  detection_source: scripts/package.json
+  last_updated_by: Borek Bernard
+  last_updated_on: 2019-03-26 17:07:46.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Václav Ostrožlík
+  last_updated_on: 2015-05-19 10:11:01.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Wladoo/versionpress
+  detection_source: Repo Metadata
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 5.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2018-06-22 12:50:21.000000000 Z
+- name: PHPUnit
+  description: Testing framework for PHP
+  website_url: https://phpunit.de/
+  version: 5.7.20
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/1616/1_WsEnddd5Y4EgEHsT054kUQ.jpeg
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/plugins/versionpress/composer.lock
+  detection_source: plugins/versionpress/composer.json
+  last_updated_by: Jan Voráček
+  last_updated_on: 2014-08-04 09:13:51.000000000 Z
+- name: TSLint
+  description: An extensible linter for the TypeScript language
+  website_url: https://github.com/palantir/tslint
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/5561/303157.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Václav Ostrožlík
+  last_updated_on: 2015-05-19 10:11:01.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Craig Andrews
+  last_updated_on: 2019-03-26 15:12:50.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 4.29.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2019-03-27 15:08:08.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Jan Voráček
+  last_updated_on: 2014-08-26 12:18:27.000000000 Z
+- name: HTML to Wordpress
+  description: Cloud-based tool that converts your current HTML based website into
+    a Wordpress theme
+  website_url: http://htmltowordpress.io
+  open_source: false
+  hosted_saas: true
+  category: Support, Sales, and Marketing
+  sub_category: CMS Tools
+  image_url: https://img.stackshare.io/service/4081/Tla1Uq2w.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/dev-env/wordpress-cli-image/Dockerfile
+  detection_source: dev-env/wordpress-cli-image/Dockerfile
+  last_updated_by: Borek Bernard
+  last_updated_on: 2019-03-10 22:26:55.000000000 Z
+- name: Debian
+  description: The Universal Operating System
+  website_url: https://www.debian.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/1656/vd4gAekh.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/dev-env/wordpress-cli-image/Dockerfile
+  detection_source: dev-env/wordpress-cli-image/Dockerfile
+  last_updated_by: Borek Bernard
+  last_updated_on: 2019-03-10 13:42:07.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.11
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2019-07-10 22:44:32.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.22.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2018-06-19 09:59:00.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/Wladoo/versionpress
+  detection_source: Repo Metadata
+- name: WordPress
+  description: A semantic personal publishing platform with a focus on aesthetics,
+    web standards, and usability.
+  website_url: http://wordpress.org
+  open_source: true
+  hosted_saas: false
+  category: Support, Sales, and Marketing
+  sub_category: Self-Hosted Blogging / CMS
+  image_url: https://img.stackshare.io/service/250/logo.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Borek Bernard
+  last_updated_on: 2019-03-10 22:17:31.000000000 Z
+- name: Wordpress VIP
+  description: Australia's most popular news site. Bringing you the latest breaking
+    news from Australia and around the world.
+  website_url: http://tcog.news.com.au/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4932/zJsuwh_O_normal.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Borek Bernard
+  last_updated_on: 2019-03-10 22:17:31.000000000 Z
+- name: chalk
+  description: terminal colors
+  website_url: https://github.com/chalk/chalk
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/scripts/package.json
+  detection_source: scripts/package.json
+  last_updated_by: Borek Bernard
+  last_updated_on: 2019-03-27 10:59:00.000000000 Z
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Borek Bernard
+  last_updated_on: 2019-03-17 09:36:27.000000000 Z
+- name: lint-staged
+  website_url: https://github.com/okonet/lint-staged
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Craig Andrews
+  last_updated_on: 2019-03-27 14:26:26.000000000 Z
+- name: superagent library
+  description: robust and clean node and browser reqest library
+  website_url: https://visionmedia.github.io/superagent/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8032/pBeeJQDQ_normal.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2018-06-19 09:59:00.000000000 Z
+- name: "@babel/core"
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/@babel/core
+  version: 7.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2019-03-27 15:08:08.000000000 Z
+- name: "@types/chai"
+  description: TypeScript definitions for chai
+  package_url: https://www.npmjs.com/@types/chai
+  version: 4.1.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15922/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2019-03-27 15:08:08.000000000 Z
+- name: "@types/classnames"
+  description: TypeScript definitions for classnames
+  package_url: https://www.npmjs.com/@types/classnames
+  version: 2.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16431/default_aa91da3cee4d961f0eea8ca5de77f399ec7ec794.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2019-03-27 15:08:08.000000000 Z
+- name: "@types/core-js"
+  description: TypeScript definitions for core-js
+  package_url: https://www.npmjs.com/@types/core-js
+  version: 2.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16420/default_d73092129e1cde5ea9f47f22e2d7c3db7bd6da8d.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2019-03-27 15:08:08.000000000 Z
+- name: "@types/dotenv"
+  description: Stub TypeScript definitions entry for dotenv
+  package_url: https://www.npmjs.com/@types/dotenv
+  version: 6.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16809/default_9a5182350af29cb82b3344853e865051f508ac6c.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/scripts/package-lock.json
+  detection_source: scripts/package.json
+  last_updated_by: Borek Bernard
+  last_updated_on: 2019-03-27 10:59:00.000000000 Z
+- name: "@types/execa"
+  description: Stub TypeScript definitions entry for execa
+  package_url: https://www.npmjs.com/@types/execa
+  version: 0.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17463/default_e5adc22c59a44962e41dfaec51edeb42c083f2f4.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/scripts/package-lock.json
+  detection_source: scripts/package.json
+  last_updated_by: Borek Bernard
+  last_updated_on: 2019-03-27 10:59:00.000000000 Z
+- name: "@types/fs-extra"
+  description: TypeScript definitions for fs-extra
+  package_url: https://www.npmjs.com/@types/fs-extra
+  version: 5.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16170/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/scripts/package-lock.json
+  detection_source: scripts/package.json
+  last_updated_by: Borek Bernard
+  last_updated_on: 2019-03-27 10:59:00.000000000 Z
+- name: "@types/got"
+  description: TypeScript definitions for got
+  package_url: https://www.npmjs.com/@types/got
+  version: 9.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17967/default_7f7fb5b4e59ac7117defd8248eb42f23d8ecf491.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/scripts/package-lock.json
+  detection_source: scripts/package.json
+  last_updated_by: Borek Bernard
+  last_updated_on: 2019-03-27 10:59:00.000000000 Z
+- name: "@types/history"
+  description: TypeScript definitions for history
+  package_url: https://www.npmjs.com/@types/history
+  version: 4.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17319/default_6afdd1bc7e3815a18b56c31d0b4acf372c00f6e2.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2019-03-27 15:08:08.000000000 Z
+- name: "@types/lodash"
+  description: TypeScript definitions for Lo-Dash
+  package_url: https://www.npmjs.com/@types/lodash
+  version: 4.14.123
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15945/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2019-07-10 22:44:32.000000000 Z
+- name: "@types/mocha"
+  description: TypeScript definitions for mocha
+  package_url: https://www.npmjs.com/@types/mocha
+  version: 5.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15893/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2019-03-27 15:08:08.000000000 Z
+- name: "@types/node-fetch"
+  description: TypeScript definitions for node-fetch
+  package_url: https://www.npmjs.com/@types/node-fetch
+  version: 2.1.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16459/default_5ffcf8d02a3454bd25d27d236025c6d078c3b672.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/scripts/package-lock.json
+  detection_source: scripts/package.json
+  last_updated_by: Borek Bernard
+  last_updated_on: 2019-03-27 10:59:00.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 16.3.18
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2019-03-27 15:08:08.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 16.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2019-03-27 15:08:08.000000000 Z
+- name: "@types/react-router-dom"
+  description: TypeScript definitions for React Router
+  package_url: https://www.npmjs.com/@types/react-router-dom
+  version: 4.2.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16557/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2019-03-27 15:08:08.000000000 Z
+- name: "@types/shelljs"
+  description: TypeScript definitions for ShellJS
+  package_url: https://www.npmjs.com/@types/shelljs
+  version: 0.8.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16927/default_243de814aae175a383b2d9fba99487a89879acdb.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/scripts/package-lock.json
+  detection_source: scripts/package.json
+  last_updated_by: Borek Bernard
+  last_updated_on: 2019-03-27 10:59:00.000000000 Z
+- name: "@types/superagent"
+  description: TypeScript definitions for SuperAgent
+  package_url: https://www.npmjs.com/@types/superagent
+  version: 3.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17956/default_cc042fd7c0a9cf091d301af307c99c8b7b08b8bc.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2019-03-27 15:08:08.000000000 Z
+- name: apollo-boost
+  description: The easiest way to get started with Apollo Client
+  package_url: https://www.npmjs.com/apollo-boost
+  version: 0.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17935/default_c741d08ac1035482640dcd4a57c59231d0ce4858.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/scripts/package-lock.json
+  detection_source: scripts/package.json
+  last_updated_by: Borek Bernard
+  last_updated_on: 2019-03-26 17:07:46.000000000 Z
+- name: archiver
+  description: A streaming interface for archive generation
+  package_url: https://www.npmjs.com/archiver
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16407/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/scripts/package-lock.json
+  detection_source: scripts/package.json
+  last_updated_by: Borek Bernard
+  last_updated_on: 2019-03-17 13:41:32.000000000 Z
+- name: arg
+  description: Another simple argument parser
+  package_url: https://www.npmjs.com/arg
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17564/default_99afdc7126f8a31ae778ef58d50c93ae3dd88880.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/scripts/package-lock.json
+  detection_source: scripts/package.json
+  last_updated_by: Borek Bernard
+  last_updated_on: 2019-03-17 13:41:32.000000000 Z
+- name: awesome-typescript-loader
+  description: Awesome TS loader for webpack
+  package_url: https://www.npmjs.com/awesome-typescript-loader
+  version: 5.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16085/default_d947c1690e032a288145c7e2491999eab3ea8ede.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2019-03-27 15:08:08.000000000 Z
+- name: babel-loader
+  description: Babel module loader for webpack
+  package_url: https://www.npmjs.com/babel-loader
+  version: 8.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15800/default_4acafe585186b4157fa23322ae7ca89e24b5cdef.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2019-03-27 15:08:08.000000000 Z
+- name: babel-runtime
+  description: Babel selfContained runtime
+  package_url: https://www.npmjs.com/babel-runtime
+  version: 6.26.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15861/default_4dc9671df0093fd7061f6455afdf054e6cc9dacb.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2019-03-27 15:08:08.000000000 Z
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 2.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: scripts/package.json
+  last_updated_by: Borek Bernard
+  last_updated_on: 2019-03-27 10:59:00.000000000 Z
+- name: classnames
+  description: A simple utility for conditionally joining classNames together
+  package_url: https://www.npmjs.com/classnames
+  version: 2.2.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15942/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2018-06-19 09:59:00.000000000 Z
+- name: core-js
+  description: Standard library
+  package_url: https://www.npmjs.com/core-js
+  version: 2.5.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15869/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2019-03-27 15:08:08.000000000 Z
+- name: cpy
+  description: Copy files
+  package_url: https://www.npmjs.com/cpy
+  version: 7.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17731/default_b527ab15473225ca7c2e9b197c9726e92ac97de8.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/scripts/package-lock.json
+  detection_source: scripts/package.json
+  last_updated_by: Borek Bernard
+  last_updated_on: 2019-03-17 13:41:32.000000000 Z
+- name: diff
+  description: A javascript text diff implementation
+  package_url: https://www.npmjs.com/diff
+  version: 3.5.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16509/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2018-06-19 09:59:00.000000000 Z
+- name: execa
+  description: Process execution for humans
+  package_url: https://www.npmjs.com/execa
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16132/default_3d197518f6bb529bfcc1b685e2cefbdfe83ff108.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: scripts/package.json
+  last_updated_by: Borek Bernard
+  last_updated_on: 2019-03-26 17:07:46.000000000 Z
+- name: file-loader
+  description: A file loader module for webpack
+  package_url: https://www.npmjs.com/file-loader
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15834/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2018-09-17 08:52:49.000000000 Z
+- name: fs-extra
+  description: Fs-extra contains methods that aren't included in the vanilla Node.js
+    fs package
+  package_url: https://www.npmjs.com/fs-extra
+  version: 7.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15836/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/scripts/package-lock.json
+  detection_source: scripts/package.json
+  last_updated_by: Borek Bernard
+  last_updated_on: 2019-03-17 13:41:32.000000000 Z
+- name: got
+  description: Human-friendly and powerful HTTP request library for Node.js
+  package_url: https://www.npmjs.com/got
+  version: 9.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16258/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/scripts/package-lock.json
+  detection_source: scripts/package.json
+  last_updated_by: Borek Bernard
+  last_updated_on: 2019-03-17 13:41:32.000000000 Z
+  vulnerabilities:
+  - name: Got allows a redirect to a UNIX socket
+    cve_id: CVE-2022-33987
+    cve_url: https://github.com/advisories/GHSA-pfrx-2q88-qq97
+    detected_date: Jun 22
+    severity: moderate
+    first_patched: 11.8.5
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 1.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Borek Bernard
+  last_updated_on: 2019-03-17 09:36:27.000000000 Z
+- name: less-loader
+  description: A Less loader for webpack. Compiles Less to CSS
+  package_url: https://www.npmjs.com/less-loader
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15989/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2018-09-17 08:52:49.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 8.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Craig Andrews
+  last_updated_on: 2019-03-27 14:26:26.000000000 Z
+- name: markdownlint-cli
+  description: MarkdownLint Command Line Interface
+  package_url: https://www.npmjs.com/markdownlint-cli
+  version: 0.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17273/default_b2015e9577d171c4c3f12c3c8d253c01fe63ba8d.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Craig Andrews
+  last_updated_on: 2019-03-27 14:26:26.000000000 Z
+- name: mini-css-extract-plugin
+  description: Extracts CSS into separate files
+  package_url: https://www.npmjs.com/mini-css-extract-plugin
+  version: 0.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15992/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2018-09-17 08:52:49.000000000 Z
+- name: mobx-react
+  description: React bindings for MobX. Create fully reactive components
+  package_url: https://www.npmjs.com/mobx-react
+  version: 5.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16661/default_e3c0987b80983280e46e6e1723fcfcff50fa4824.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2018-09-17 08:52:49.000000000 Z
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.22.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2018-06-19 09:59:00.000000000 Z
+  vulnerabilities:
+  - name: 'Path Traversal: ''dir/../../filename'' in moment.locale'
+    cve_id: CVE-2022-24785
+    cve_url: https://github.com/advisories/GHSA-8hfj-j24r-96c4
+    detected_date: Apr 9
+    severity: high
+    first_patched: 2.29.2
+  - name: Moment.js vulnerable to Inefficient Regular Expression Complexity
+    cve_id: CVE-2022-31129
+    cve_url: https://github.com/advisories/GHSA-wc69-rhjr-hc9g
+    detected_date: Jul 7
+    severity: high
+    first_patched: 2.29.4
+- name: node-fetch
+  description: A light-weight module that brings window.fetch to node.js
+  package_url: https://www.npmjs.com/node-fetch
+  version: 1.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15978/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: scripts/package.json
+  last_updated_by: Borek Bernard
+  last_updated_on: 2019-03-26 17:08:43.000000000 Z
+  vulnerabilities:
+  - name: node-fetch forwards secure headers to untrusted sites
+    cve_id: CVE-2022-0235
+    cve_url: https://github.com/advisories/GHSA-r683-j2x4-v87g
+    detected_date: Jan 22
+    severity: high
+    first_patched: 2.6.7
+  - name: The `size` option isn't honored after following a redirect in node-fetch
+    cve_id: CVE-2020-15168
+    cve_url: https://github.com/advisories/GHSA-w7rc-rwvf-8q5r
+    detected_date: Aug 22
+    severity: low
+    first_patched: 2.6.1
+- name: npm-run-all
+  description: A CLI tool to run multiple npm-scripts in parallel or sequential
+  package_url: https://www.npmjs.com/npm-run-all
+  version: 4.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15926/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Borek Bernard
+  last_updated_on: 2019-03-22 23:31:21.000000000 Z
+- name: optimize-css-assets-webpack-plugin
+  description: A Webpack plugin to optimize \ minimize CSS assets
+  package_url: https://www.npmjs.com/optimize-css-assets-webpack-plugin
+  version: 5.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15964/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2019-03-27 15:08:08.000000000 Z
+- name: postcss-loader
+  description: PostCSS loader for webpack
+  package_url: https://www.npmjs.com/postcss-loader
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15876/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2018-09-17 08:52:49.000000000 Z
+- name: react-day-picker
+  description: Flexible date picker component for React
+  package_url: https://www.npmjs.com/react-day-picker
+  version: 7.1.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18299/default_678ce8b19e8cee1dde03f165f62525a2c9d0c034.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2018-09-17 08:52:49.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 16.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2018-09-17 08:52:49.000000000 Z
+  vulnerabilities:
+  - name: Cross-Site Scripting in react-dom
+    cve_id: CVE-2018-6341
+    cve_url: https://github.com/advisories/GHSA-mvjj-gqq2-p4hw
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 16.4.2
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 4.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2018-09-17 08:52:49.000000000 Z
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 2.6.3
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2018-06-19 09:59:00.000000000 Z
+- name: shelljs
+  description: Portable Unix shell commands for Node.js
+  package_url: https://www.npmjs.com/shelljs
+  version: 0.8.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15897/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/scripts/package-lock.json
+  detection_source: scripts/package.json
+  last_updated_by: Borek Bernard
+  last_updated_on: 2019-03-17 13:41:32.000000000 Z
+  vulnerabilities:
+  - name: Improper Privilege Management in shelljs
+    cve_id: CVE-2022-0144
+    cve_url: https://github.com/advisories/GHSA-4rq4-32rv-6wp6
+    detected_date: Jan 22
+    severity: high
+    first_patched: 0.8.5
+  - name: Improper Privilege Management in shelljs
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-64g7-mvw6-v9qj
+    detected_date: Jan 15
+    severity: moderate
+    first_patched: 0.8.5
+- name: style-loader
+  description: Style loader module for webpack
+  package_url: https://www.npmjs.com/style-loader
+  version: 0.23.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15822/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2018-09-17 08:52:49.000000000 Z
+- name: superagent
+  description: Elegant &amp; feature rich browser / node HTTP with a fluent API
+  package_url: https://www.npmjs.com/superagent
+  version: 3.8.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16046/default_939338dc71400138c5e4a3464e041bf30f8f82ba.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2018-06-19 09:59:00.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 8.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/scripts/package-lock.json
+  detection_source: scripts/package.json
+  last_updated_by: Borek Bernard
+  last_updated_on: 2019-03-26 17:08:43.000000000 Z
+- name: tslint-eslint-rules
+  description: Improve your TSLint with the missing ESLint Rules
+  package_url: https://www.npmjs.com/tslint-eslint-rules
+  version: 5.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16403/default_3d8bf87f0e09f3da6536330e02ffa89677f8784b.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2018-09-17 08:52:49.000000000 Z
+- name: tslint-loader
+  description: Tslint loader for webpack
+  package_url: https://www.npmjs.com/tslint-loader
+  version: 3.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16395/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2018-09-17 08:52:49.000000000 Z
+- name: uglifyjs-webpack-plugin
+  description: UglifyJS plugin for webpack
+  package_url: https://www.npmjs.com/uglifyjs-webpack-plugin
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15953/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2019-03-27 15:08:08.000000000 Z
+- name: url-loader
+  description: A loader for webpack which transforms files into base64 URIs
+  package_url: https://www.npmjs.com/url-loader
+  version: 1.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15858/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2018-09-17 08:52:49.000000000 Z
+- name: webpack-cli
+  description: CLI for webpack &amp; friends
+  package_url: https://www.npmjs.com/webpack-cli
+  version: 3.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15826/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2019-03-27 15:08:08.000000000 Z
+- name: webpack-dev-server
+  description: Serves a webpack app. Updates the browser on changes
+  package_url: https://www.npmjs.com/webpack-dev-server
+  version: 3.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15821/default_64690bc3e49bcee57094e51a7a26c620c48dbd82.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Michal Snovický
+  last_updated_on: 2019-03-27 15:08:08.000000000 Z
+- name: 10up/wp_mock
+  description: A mocking library to take the pain out of unit testing for WordPress
+  package_url: https://packagist.org/10up/wp_mock
+  version: 0.1.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/plugins/versionpress/composer.lock
+  detection_source: plugins/versionpress/composer.json
+  last_updated_by: Borek Bernard
+  last_updated_on: 2017-06-27 09:26:45.000000000 Z
+- name: fzaninotto/faker
+  description: Faker is a PHP library that generates fake data for you
+  package_url: https://packagist.org/fzaninotto/faker
+  version: 1.6.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/plugins/versionpress/composer.lock
+  detection_source: plugins/versionpress/composer.json
+  last_updated_by: Borek Bernard
+  last_updated_on: 2017-06-22 23:06:38.000000000 Z
+- name: johnpbloch/wordpress
+  description: WordPress is open source software you can use to create a beautiful
+    website
+  package_url: https://packagist.org/johnpbloch/wordpress
+  version: 4.9.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/ext-libs/composer.lock
+  detection_source: ext-libs/composer.json
+  last_updated_by: Borek Bernard
+  last_updated_on: 2017-12-15 08:53:29.000000000 Z
+- name: michelf/php-markdown
+  description: PHP Markdown
+  package_url: https://packagist.org/michelf/php-markdown
+  version: 1.7.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/plugins/versionpress/composer.lock
+  detection_source: plugins/versionpress/composer.json
+  last_updated_by: Borek Bernard
+  last_updated_on: 2017-06-27 09:26:45.000000000 Z
+- name: mikey179/vfsStream
+  description: Virtual file system to mock the real file system in unit tests
+  package_url: https://packagist.org/mikey179/vfsStream
+  version: 1.6.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/plugins/versionpress/composer.lock
+  detection_source: plugins/versionpress/composer.json
+  last_updated_by: Craig Andrews
+  last_updated_on: 2019-05-14 19:22:47.000000000 Z
+- name: nette/utils
+  description: "\U0001F6E0 Nette Utils: lightweight utilities for string &amp; array
+    manipulation"
+  package_url: https://packagist.org/nette/utils
+  version: 2.4.6
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/plugins/versionpress/composer.lock
+  detection_source: plugins/versionpress/composer.json
+  last_updated_by: Borek Bernard
+  last_updated_on: 2017-06-22 23:06:38.000000000 Z
+- name: phpmyadmin/sql-parser
+  description: A validating SQL lexer and parser with a focus on MySQL dialect
+  package_url: https://packagist.org/phpmyadmin/sql-parser
+  version: 4.3.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/plugins/versionpress/composer.lock
+  detection_source: plugins/versionpress/composer.json
+  last_updated_by: Craig Andrews
+  last_updated_on: 2019-05-14 19:19:47.000000000 Z
+- name: phpunit/phpunit
+  description: The PHP Unit Testing framework
+  package_url: https://packagist.org/phpunit/phpunit
+  version: 5.7.20
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/plugins/versionpress/composer.lock
+  detection_source: plugins/versionpress/composer.json
+  last_updated_by: Borek Bernard
+  last_updated_on: 2017-06-27 09:26:45.000000000 Z
+- name: phpunit/phpunit-selenium
+  description: Selenium Server integration for PHPUnit
+  package_url: https://packagist.org/phpunit/phpunit-selenium
+  version: 3.0.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/plugins/versionpress/composer.lock
+  detection_source: plugins/versionpress/composer.json
+  last_updated_by: Borek Bernard
+  last_updated_on: 2017-06-27 09:26:45.000000000 Z
+- name: squizlabs/php_codesniffer
+  description: PHP_CodeSniffer tokenizes PHP
+  package_url: https://packagist.org/squizlabs/php_codesniffer
+  version: 3.4.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/plugins/versionpress/composer.lock
+  detection_source: plugins/versionpress/composer.json
+  last_updated_by: Borek Bernard
+  last_updated_on: 2017-06-27 09:26:45.000000000 Z
+- name: symfony/filesystem
+  description: Provides basic utilities for the filesystem
+  package_url: https://packagist.org/symfony/filesystem
+  version: 3.4.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/ext-libs/composer.lock
+  detection_source: plugins/versionpress/composer.json
+  last_updated_by: Borek Bernard
+  last_updated_on: 2017-06-22 23:06:38.000000000 Z
+- name: symfony/process
+  description: Executes commands in sub-processes
+  package_url: https://packagist.org/symfony/process
+  version: 3.4.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/ext-libs/composer.lock
+  detection_source: plugins/versionpress/composer.json
+  last_updated_by: Borek Bernard
+  last_updated_on: 2017-06-22 23:06:38.000000000 Z
+- name: symfony/yaml
+  description: Loads and dumps YAML files
+  package_url: https://packagist.org/symfony/yaml
+  version: 3.4.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/ext-libs/composer.lock
+  detection_source: plugins/versionpress/composer.json
+  last_updated_by: Borek Bernard
+  last_updated_on: 2017-06-22 23:06:38.000000000 Z
+- name: tracy/tracy
+  description: "\U0001F60E Tracy: the addictive tool to ease debugging PHP code for
+    cool developers"
+  package_url: https://packagist.org/tracy/tracy
+  version: 2.4.7
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/plugins/versionpress/composer.lock
+  detection_source: plugins/versionpress/composer.json
+  last_updated_by: Borek Bernard
+  last_updated_on: 2017-06-22 23:06:38.000000000 Z
+- name: wp-cli/wp-cli
+  description: WP-CLI framework
+  package_url: https://packagist.org/wp-cli/wp-cli
+  version: 1.4.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Wladoo/versionpress/blob/master/ext-libs/composer.lock
+  detection_source: ext-libs/composer.json
+  last_updated_by: Borek Bernard
+  last_updated_on: 2017-06-28 05:37:42.000000000 Z
